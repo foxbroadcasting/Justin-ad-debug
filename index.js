@@ -14,6 +14,7 @@ const Logger = new SplunkLogger({
     let offset = 0;
     let total;
 
+      //Can optimize by passing in account name, which contains USERNAME and DEBUGNAME...need to update config file
     do {
       const url = `https://cms.uplynk.com/ad/debugload?username=${config.USERNAME}&debugname=${config.DEBUGNAME}&offset=${offset}`;
       const respText = await request.get(url);
@@ -22,6 +23,7 @@ const Logger = new SplunkLogger({
       total = resp.total;
       
       console.log('*******************************************');
+        // Can optimize this by passing in the account/channels being parsed
       console.log('Finished printing data.', config, url, ads);
 
       // 10 ad requests in parallel
