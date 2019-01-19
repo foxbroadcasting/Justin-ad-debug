@@ -38,7 +38,7 @@ ad_debug_info = [
         "DEBUGNAME": "volicon-FNC"
     },
     {
-        "DISPLAYNAME":"Fox News Public - Passthrough"
+        "DISPLAYNAME":"Fox News Public - Passthrough",
         "USERNAME": "fox_news",
         "DEBUGNAME": "volicon-FNC-PASS-THROUGH"
     },
@@ -53,6 +53,7 @@ ad_debug_info = [
         "DISPLAYNAME": "FBC CENTRAL NATIONAL - Public",
         "USERNAME": "fox_national",
         "DEBUGNAME": "volicon-FBC-CENTRAL-WVUE"
+    },
     {
         "DISPLAYNAME": "FBC MOUNTAIN NATIONAL - Public",
         "USERNAME": "fox_national",
@@ -92,88 +93,88 @@ ad_debug_info = [
 
     #5: fox_owned_affiliates
     {
-        "DISPLAYNAME": "KDFW Fox-4 Dallas TX Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "KDFW Fox-4 Dallas TX Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-KDFW"
     },
     {
-        "DISPLAYNAME": "KMSP Fox-9 Minneaoplis MN Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "KMSP Fox-9 Minneaoplis MN Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-KMSP"
     },
     {
-        "DISPLAYNAME": "KRIV Fox-26 Houston TX Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "KRIV Fox-26 Houston TX Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-KRIV"
     },
     {
-        "DISPLAYNAME": "KSAZ Fox-10 Phoenix Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "KSAZ Fox-10 Phoenix Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-KSAZ"
     },
     {
-        "DISPLAYNAME": "KTBC Fox-7 Austin TX Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "KTBC Fox-7 Austin TX Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-KTBC"
     },
     {
-        "DISPLAYNAME": "KTTV Fox-11 Los Angeles CA Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "KTTV Fox-11 Los Angeles CA Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-KTTV"
     },
     {
-        "DISPLAYNAME": "KTVU Fox-2 San Francisco CA Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "KTVU Fox-2 San Francisco CA Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-KTVU"
     },
     {
-        "DISPLAYNAME": "WAGA Fox-5 Atlanta GA Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "WAGA Fox-5 Atlanta GA Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-WAGA"
     },
     {
-        "DISPLAYNAME": "WFLD Fox-32 Chicago IL Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "WFLD Fox-32 Chicago IL Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-WFLD"
     },
     {
-        "DISPLAYNAME": "WJBK Fox-2 Detroit MI Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "WJBK Fox-2 Detroit MI Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-WJBK"
     },
     {
-        "DISPLAYNAME": "WJZY Fox-46 Charlotte NC Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "WJZY Fox-46 Charlotte NC Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-WJZY"
     },
     {
-        "DISPLAYNAME": "WNYW Fox-5 NYC NY Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "WNYW Fox-5 NYC NY Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-WNYW"
     },
     {
-        "DISPLAYNAME": "WOFL Fox-35 Orlando FL Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "WOFL Fox-35 Orlando FL Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-WOFL"
     },
     {
-        "DISPLAYNAME": "WOGX Fox-51 Gainesville FL Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "WOGX Fox-51 Gainesville FL Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-WOGX"
     },
     {
-        "DISPLAYNAME": "WTTG Fox-5 Wash DC Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "WTTG Fox-5 Wash DC Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-WTTG"
     },
     {
-        "DISPLAYNAME": "WTVT Fox-13 Tampa FL Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "WTVT Fox-13 Tampa FL Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-WTVT"
     },
     {
-        "DISPLAYNAME": "WTXF Fox-29 Philadelphia PA Public"
-        "USERNAME": "fox_owned_affiliates"
+        "DISPLAYNAME": "WTXF Fox-29 Philadelphia PA Public",
+        "USERNAME": "fox_owned_affiliates",
         "DEBUGNAME": "volicon-WTXF"
     },
     {
@@ -375,6 +376,7 @@ ad_debug_info = [
         "USERNAME": "fox_sports",
         "DEBUGNAME": "volicon-TX712"
     },
+    {
     # Low Latency Test Streams
         "DISPLAYNAME":"TX705 Low Latency Ad Flex 5 Without Drop",
         "USERNAME": "fox_sports",
@@ -396,12 +398,12 @@ ad_debug_info = [
         "DEBUGNAME": "volicon-FS1-LL-7"
     },
     {
-        "DISPLAYNAME": "TX705 Low Latency Ad Flex 5 With Drop"
+        "DISPLAYNAME": "TX705 Low Latency Ad Flex 5 With Drop",
         "USERNAME": "fox_sports",
         "DEBUGNAME": "volicon-TX705-LL-5"
     },
     {
-        "DISPLAYNAME": "volicon-FS1-LL-15"
+        "DISPLAYNAME": "volicon-FS1-LL-15",
         "USERNAME": "fox_sports",
         "DEBUGNAME": "volicon-FS1-LL-15"
     },
