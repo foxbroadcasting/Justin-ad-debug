@@ -4,10 +4,14 @@ module.exports = [
       "DEBUGNAME": "volicon-TX705-LL-7"
   },
   {
+    
+    // need to change debug name to volicon-FS1-LL-CONTROL
       "USERNAME": "fox_sports",
       "DEBUGNAME": "volicon-FS1-LL-5"
   },
   {
+    
+    // need to change debug name to volicon-FS1-LL-35
       "USERNAME": "fox_sports",
       "DEBUGNAME": "volicon-FS1-LL-7"
   },
@@ -16,10 +20,14 @@ module.exports = [
       "DEBUGNAME": "volicon-TX705-LL-5"
   },
   {
+    
+    // need to change debug name to volicon-FS1-LL-40
       "USERNAME": "fox_sports",
       "DEBUGNAME": "volicon-FS1-LL-15"
   },
    {
+     
+     // need to change debug name to volicon-FS1-LL-45
       "USERNAME": "fox_sports",
       "DEBUGNAME": "volicon-FS1-no-flex"
   },
