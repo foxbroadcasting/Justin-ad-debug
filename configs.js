@@ -7,6 +7,11 @@ module.exports = [
       "USERNAME": "fox_sports",
       "DEBUGNAME": "volicon-FS1-LL-CONTROL"
   },
+  
+  {
+      "USERNAME": "fox_sports",
+      "DEBUGNAME": "volicon-FS1-LL-CONTROLU"
+  },
   {
       "USERNAME": "fox_sports",
       "DEBUGNAME": "volicon-FS1-LL-35"
