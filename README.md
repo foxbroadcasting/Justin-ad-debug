@@ -24,6 +24,16 @@ node index.js
 
 # Deploying an update
 
+
+Log in with Okta, make sure AWS keys are in env vars
+```sh
+okta-awscli --okta-profile default --profile default
+
+export AWS_PROFILE=default
+export AWS_ACCESS_KEY_ID=$(aws configure get default.aws_access_key_id)
+export AWS_SECRET_ACCESS_KEY=$(aws configure get default.aws_secret_access_key)
+export AWS_SESSION_TOKEN=$(aws configure get default.aws_session_token)
+```
 Build an image and push to ECR, increment the version: v1, v2, v3 etc
 
 ```sh
