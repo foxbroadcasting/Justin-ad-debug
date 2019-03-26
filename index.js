@@ -9,16 +9,15 @@ const Logger = new SplunkLogger({
 
 (async () => {
 
-  // higher loop sends &offset requests one by one
+  // for each username/debugname from config
   for (config of configs) {
     let offset = 0;
     let total;
 
-      //Can optimize by passing in account name, which contains USERNAME and DEBUGNAME...need to update config file
+    // response is paginated, so we use ?offset=10 ?offset=20 .. until we get everything
     do {
       const url = `https://cms.uplynk.com/ad/debugload?username=${config.USERNAME}&debugname=${config.DEBUGNAME}&offset=${offset}`;
-      const respText = await request.get(url);
-      const resp = JSON.parse(respText);
+      const resp = await request.get(url, { json: true });
       const ads = resp.hits;
       total = resp.total;
       
@@ -26,15 +25,14 @@ const Logger = new SplunkLogger({
         // Can optimize this by passing in the account/channels being parsed
       console.log('Finished printing data.', config, url, ads);
 
-      // 10 ad requests in parallel
+      // send all (10) ad requests in parallel
       ads.forEach(async ad => {
         const adUrl = `https://cms.uplynk.com/ad/debugload/${ad._index}/${ad._id}`;
-        const adRespText = await request.get(adUrl);
-        const adResp = JSON.parse(adRespText);
+        const adResp = await request.get(adUrl, { json: true });
 
         console.log('*******************************************');
         console.log(adUrl);
-        
+
         Logger.send({
           metadata: {
             index: 'video-eng-live',
@@ -60,6 +58,3 @@ const Logger = new SplunkLogger({
 
   };
 })();
-
-
-
