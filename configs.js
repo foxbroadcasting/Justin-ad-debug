@@ -14,11 +14,15 @@ module.exports = [
   },
   {
       "USERNAME": "fox_sports",
-      "DEBUGNAME": "volicon-FS1-LL-35"
+      "DEBUGNAME": "volicon-TX705-LL-5"
   },
   {
       "USERNAME": "fox_sports",
-      "DEBUGNAME": "volicon-TX705-LL-5"
+      "DEBUGNAME": "volicon-FS1-LL-30"
+  },
+  {
+      "USERNAME": "fox_sports",
+      "DEBUGNAME": "volicon-FS1-LL-35"
   },
   {
       "USERNAME": "fox_sports",
