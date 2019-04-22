@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async-retry": "^1.2.3",
+    "dnscache": "^1.0.2",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5",
     "splunk-logging": "^0.10.1"
